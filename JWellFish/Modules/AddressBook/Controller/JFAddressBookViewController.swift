@@ -13,10 +13,12 @@ class JFAddressBookViewController: JFRootViewController {
     @IBOutlet weak var toTopHeight: NSLayoutConstraint!
     @IBOutlet weak var toBottomHeight: NSLayoutConstraint!
     @IBOutlet weak var tableView: UITableView!
+    let datasource = ["videoUrl":"","title":""]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         toTopHeight.constant = kTopHeight
-        toBottomHeight.constant = 100
+        toBottomHeight.constant = tabBarHeight
 //        creatVideoView()
         // Do any additional setup after loading the view.
         navigation.item.title = "视频"
@@ -27,6 +29,7 @@ class JFAddressBookViewController: JFRootViewController {
         self.tableView.register(cellType: JFVideoTableViewCell.self)
         self.tableView.estimatedRowHeight = 120
         self.tableView.rowHeight = UITableView.automaticDimension
+        
     }
     
     func creatVideoView() {
@@ -46,11 +49,17 @@ class JFAddressBookViewController: JFRootViewController {
 
 extension JFAddressBookViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 20
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let  cell = tableView.dequeueReusableCell(for: indexPath, cellType: JFVideoTableViewCell.self)
+        cell.selectionStyle = .none
+        if indexPath.row == 0 {
+            self.videoView.player.play()
+        }else{
+            self.videoView.player.pause()
+        }
         return cell
         
     }

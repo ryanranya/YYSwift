@@ -12,11 +12,6 @@ import SwiftyFitsize
 class RYVideoView: UIView {
     let videoUrl: String = "https://audio01-showstart.taihe.com/0210/M00/DB/94/ChR47F5rOPSAFPDaHq4F3zBCNjs433.mp4"
     
-//    var palyerItem: AVPlayerItem?
-//    var player: AVPlayer?
-//    var playerLayer: AVPlayerLayer?
-    
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         videoSet()
@@ -29,7 +24,7 @@ class RYVideoView: UIView {
     func videoSet() {
         playerLayer.frame = CGRect(x: 0, y: 0, width: KScreenWidth - 20~, height: 140~)
         self.layer.addSublayer(playerLayer)
-        self.player.play()
+        player.pause()
 
     }
     
