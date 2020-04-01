@@ -1,0 +1,6 @@
+framework module Pods_JWellFish {
+  umbrella header "Pods-JWellFish-umbrella.h"
+
+  export *
+  module * { export * }
+}

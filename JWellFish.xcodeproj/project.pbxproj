@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196C4496E765C43B9188E217 /* Pods_JWellFishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1FCD6D8B20D9264078DFF4 /* Pods_JWellFishUITests.framework */; };
+		272BCA06124D9E98976A37C6 /* Pods_JWellFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9861407E798FD0195D74D0 /* Pods_JWellFish.framework */; };
+		5726BD2B70E9BB50AA419247 /* Pods_JWellFishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3997D18836F0FD478E054 /* Pods_JWellFishTests.framework */; };
+		84C0578524344C5200F86C4A /* JFAddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0578324344C5200F86C4A /* JFAddressBookViewController.swift */; };
+		84C0578624344C5200F86C4A /* JFAddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0578424344C5200F86C4A /* JFAddressBookViewController.xib */; };
+		84C057892434617200F86C4A /* JFVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C057872434617200F86C4A /* JFVideoTableViewCell.swift */; };
+		84C0578A2434617200F86C4A /* JFVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C057882434617200F86C4A /* JFVideoTableViewCell.xib */; };
 		84C92F5D242C390700D20EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F5C242C390700D20EB3 /* AppDelegate.swift */; };
 		84C92F5F242C390700D20EB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F5E242C390700D20EB3 /* SceneDelegate.swift */; };
 		84C92F61242C390700D20EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F60242C390700D20EB3 /* ViewController.swift */; };
@@ -15,6 +22,37 @@
 		84C92F69242C390A00D20EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C92F67242C390A00D20EB3 /* LaunchScreen.storyboard */; };
 		84C92F74242C390B00D20EB3 /* JWellFishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F73242C390B00D20EB3 /* JWellFishTests.swift */; };
 		84C92F7F242C390B00D20EB3 /* JWellFishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F7E242C390B00D20EB3 /* JWellFishUITests.swift */; };
+		84C92FB9242C4BDE00D20EB3 /* JWellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F8F242C4BDD00D20EB3 /* JWellColor.swift */; };
+		84C92FBA242C4BDE00D20EB3 /* FontAndColorMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F91242C4BDD00D20EB3 /* FontAndColorMacros.swift */; };
+		84C92FBB242C4BDE00D20EB3 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F92242C4BDD00D20EB3 /* SwiftClass.swift */; };
+		84C92FBC242C4BDE00D20EB3 /* CUtilsMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F93242C4BDD00D20EB3 /* CUtilsMacros.swift */; };
+		84C92FBD242C4BDE00D20EB3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F95242C4BDD00D20EB3 /* NetworkManager.swift */; };
+		84C92FBE242C4BDE00D20EB3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F96242C4BDD00D20EB3 /* API.swift */; };
+		84C92FBF242C4BDE00D20EB3 /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F97242C4BDD00D20EB3 /* MoyaConfig.swift */; };
+		84C92FC0242C4BDE00D20EB3 /* DMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92F9A242C4BDD00D20EB3 /* DMTabBarViewController.swift */; };
+		84C92FC9242C4BDE00D20EB3 /* JWellPlushButtonSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FA4242C4BDD00D20EB3 /* JWellPlushButtonSubclass.swift */; };
+		84C92FCA242C4BDE00D20EB3 /* JWellAssociatedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FA6242C4BDD00D20EB3 /* JWellAssociatedKeys.swift */; };
+		84C92FCB242C4BDE00D20EB3 /* JWellNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FA7242C4BDD00D20EB3 /* JWellNavigation.swift */; };
+		84C92FCC242C4BDE00D20EB3 /* UINavigationController+JWellNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FA8242C4BDD00D20EB3 /* UINavigationController+JWellNavigationBar.swift */; };
+		84C92FCD242C4BDE00D20EB3 /* JWellNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FA9242C4BDD00D20EB3 /* JWellNavigationItem.swift */; };
+		84C92FCE242C4BDE00D20EB3 /* JWellConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAA242C4BDD00D20EB3 /* JWellConst.swift */; };
+		84C92FCF242C4BDE00D20EB3 /* UINavigationBar+JWellSugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAB242C4BDD00D20EB3 /* UINavigationBar+JWellSugar.swift */; };
+		84C92FD0242C4BDE00D20EB3 /* JWellNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAC242C4BDD00D20EB3 /* JWellNavigationBar.swift */; };
+		84C92FD1242C4BDE00D20EB3 /* UIViewController+JWellSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAD242C4BDD00D20EB3 /* UIViewController+JWellSwizzling.swift */; };
+		84C92FD2242C4BDE00D20EB3 /* UITableViewController+JWellNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAE242C4BDD00D20EB3 /* UITableViewController+JWellNavigationBar.swift */; };
+		84C92FD3242C4BDE00D20EB3 /* JWellBackBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FAF242C4BDD00D20EB3 /* JWellBackBarButtonItem.swift */; };
+		84C92FD4242C4BDE00D20EB3 /* UIViewController+JWellNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FB0242C4BDD00D20EB3 /* UIViewController+JWellNavigation.swift */; };
+		84C92FD5242C4BDE00D20EB3 /* UIViewController+JWellNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FB1242C4BDD00D20EB3 /* UIViewController+JWellNavigationBar.swift */; };
+		84C92FD6242C4BDE00D20EB3 /* JWellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FB2242C4BDD00D20EB3 /* JWellConfiguration.swift */; };
+		84C92FD7242C4BDE00D20EB3 /* UIViewController+JWellAssociated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FB3242C4BDD00D20EB3 /* UIViewController+JWellAssociated.swift */; };
+		84C92FD8242C4BDE00D20EB3 /* JWellShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FB4242C4BDD00D20EB3 /* JWellShadow.swift */; };
+		84C92FF3242C4C6B00D20EB3 /* JFMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FE3242C4C6B00D20EB3 /* JFMineViewController.swift */; };
+		84C92FF4242C4C6B00D20EB3 /* JFMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FE9242C4C6B00D20EB3 /* JFMessageViewController.swift */; };
+		84C92FF5242C4C6B00D20EB3 /* JFWorkbenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FEF242C4C6B00D20EB3 /* JFWorkbenchViewController.swift */; };
+		84C92FF7242C4E2300D20EB3 /* JFRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C92FF6242C4E2300D20EB3 /* JFRootViewController.swift */; };
+		84C93005242C959000D20EB3 /* JFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C93003242C959000D20EB3 /* JFLoginViewController.swift */; };
+		84C93006242C959000D20EB3 /* JFLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C93004242C959000D20EB3 /* JFLoginViewController.xib */; };
+		84C9300A242DD3E600D20EB3 /* RYVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C93009242DD3E600D20EB3 /* RYVideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +73,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E3997D18836F0FD478E054 /* Pods_JWellFishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWellFishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2956D22BA892A60960C858C8 /* Pods-JWellFishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFishUITests.debug.xcconfig"; path = "Target Support Files/Pods-JWellFishUITests/Pods-JWellFishUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9861407E798FD0195D74D0 /* Pods_JWellFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWellFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C55FBBF30172B9BF8185CCD /* Pods-JWellFishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFishTests.release.xcconfig"; path = "Target Support Files/Pods-JWellFishTests/Pods-JWellFishTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A883A62EAD35CA47822979C /* Pods-JWellFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFish.release.xcconfig"; path = "Target Support Files/Pods-JWellFish/Pods-JWellFish.release.xcconfig"; sourceTree = "<group>"; };
+		84C0578324344C5200F86C4A /* JFAddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFAddressBookViewController.swift; sourceTree = "<group>"; };
+		84C0578424344C5200F86C4A /* JFAddressBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFAddressBookViewController.xib; sourceTree = "<group>"; };
+		84C057872434617200F86C4A /* JFVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFVideoTableViewCell.swift; sourceTree = "<group>"; };
+		84C057882434617200F86C4A /* JFVideoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFVideoTableViewCell.xib; sourceTree = "<group>"; };
 		84C92F59242C390700D20EB3 /* JWellFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWellFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C92F5C242C390700D20EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C92F5E242C390700D20EB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +96,41 @@
 		84C92F7A242C390B00D20EB3 /* JWellFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWellFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C92F7E242C390B00D20EB3 /* JWellFishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWellFishUITests.swift; sourceTree = "<group>"; };
 		84C92F80242C390B00D20EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C92F8F242C4BDD00D20EB3 /* JWellColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellColor.swift; sourceTree = "<group>"; };
+		84C92F91242C4BDD00D20EB3 /* FontAndColorMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAndColorMacros.swift; sourceTree = "<group>"; };
+		84C92F92242C4BDD00D20EB3 /* SwiftClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
+		84C92F93242C4BDD00D20EB3 /* CUtilsMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUtilsMacros.swift; sourceTree = "<group>"; };
+		84C92F95242C4BDD00D20EB3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84C92F96242C4BDD00D20EB3 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		84C92F97242C4BDD00D20EB3 /* MoyaConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		84C92F9A242C4BDD00D20EB3 /* DMTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMTabBarViewController.swift; sourceTree = "<group>"; };
+		84C92FA4242C4BDD00D20EB3 /* JWellPlushButtonSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellPlushButtonSubclass.swift; sourceTree = "<group>"; };
+		84C92FA6242C4BDD00D20EB3 /* JWellAssociatedKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellAssociatedKeys.swift; sourceTree = "<group>"; };
+		84C92FA7242C4BDD00D20EB3 /* JWellNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellNavigation.swift; sourceTree = "<group>"; };
+		84C92FA8242C4BDD00D20EB3 /* UINavigationController+JWellNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+JWellNavigationBar.swift"; sourceTree = "<group>"; };
+		84C92FA9242C4BDD00D20EB3 /* JWellNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellNavigationItem.swift; sourceTree = "<group>"; };
+		84C92FAA242C4BDD00D20EB3 /* JWellConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellConst.swift; sourceTree = "<group>"; };
+		84C92FAB242C4BDD00D20EB3 /* UINavigationBar+JWellSugar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+JWellSugar.swift"; sourceTree = "<group>"; };
+		84C92FAC242C4BDD00D20EB3 /* JWellNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellNavigationBar.swift; sourceTree = "<group>"; };
+		84C92FAD242C4BDD00D20EB3 /* UIViewController+JWellSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JWellSwizzling.swift"; sourceTree = "<group>"; };
+		84C92FAE242C4BDD00D20EB3 /* UITableViewController+JWellNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewController+JWellNavigationBar.swift"; sourceTree = "<group>"; };
+		84C92FAF242C4BDD00D20EB3 /* JWellBackBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellBackBarButtonItem.swift; sourceTree = "<group>"; };
+		84C92FB0242C4BDD00D20EB3 /* UIViewController+JWellNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JWellNavigation.swift"; sourceTree = "<group>"; };
+		84C92FB1242C4BDD00D20EB3 /* UIViewController+JWellNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JWellNavigationBar.swift"; sourceTree = "<group>"; };
+		84C92FB2242C4BDD00D20EB3 /* JWellConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellConfiguration.swift; sourceTree = "<group>"; };
+		84C92FB3242C4BDD00D20EB3 /* UIViewController+JWellAssociated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+JWellAssociated.swift"; sourceTree = "<group>"; };
+		84C92FB4242C4BDD00D20EB3 /* JWellShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWellShadow.swift; sourceTree = "<group>"; };
+		84C92FE3242C4C6B00D20EB3 /* JFMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFMineViewController.swift; sourceTree = "<group>"; };
+		84C92FE9242C4C6B00D20EB3 /* JFMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFMessageViewController.swift; sourceTree = "<group>"; };
+		84C92FEF242C4C6B00D20EB3 /* JFWorkbenchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFWorkbenchViewController.swift; sourceTree = "<group>"; };
+		84C92FF6242C4E2300D20EB3 /* JFRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFRootViewController.swift; sourceTree = "<group>"; };
+		84C93003242C959000D20EB3 /* JFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFLoginViewController.swift; sourceTree = "<group>"; };
+		84C93004242C959000D20EB3 /* JFLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFLoginViewController.xib; sourceTree = "<group>"; };
+		84C93009242DD3E600D20EB3 /* RYVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYVideoView.swift; sourceTree = "<group>"; };
+		9B73909FAB5DD8382ED7151F /* Pods-JWellFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFish.debug.xcconfig"; path = "Target Support Files/Pods-JWellFish/Pods-JWellFish.debug.xcconfig"; sourceTree = "<group>"; };
+		AC90A31CCBAB45D67E62E14A /* Pods-JWellFishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFishUITests.release.xcconfig"; path = "Target Support Files/Pods-JWellFishUITests/Pods-JWellFishUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC1FCD6D8B20D9264078DFF4 /* Pods_JWellFishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWellFishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA58852051054CCCABBC13C /* Pods-JWellFishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFishTests.debug.xcconfig"; path = "Target Support Files/Pods-JWellFishTests/Pods-JWellFishTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				272BCA06124D9E98976A37C6 /* Pods_JWellFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5726BD2B70E9BB50AA419247 /* Pods_JWellFishTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +154,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196C4496E765C43B9188E217 /* Pods_JWellFishUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		353EB4C05C678F3347A722C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9861407E798FD0195D74D0 /* Pods_JWellFish.framework */,
+				04E3997D18836F0FD478E054 /* Pods_JWellFishTests.framework */,
+				CC1FCD6D8B20D9264078DFF4 /* Pods_JWellFishUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84C92F50242C390600D20EB3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +178,8 @@
 				84C92F72242C390B00D20EB3 /* JWellFishTests */,
 				84C92F7D242C390B00D20EB3 /* JWellFishUITests */,
 				84C92F5A242C390700D20EB3 /* Products */,
+				E05C0D2A11784565494AB267 /* Pods */,
+				353EB4C05C678F3347A722C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +196,13 @@
 		84C92F5B242C390700D20EB3 /* JWellFish */ = {
 			isa = PBXGroup;
 			children = (
-				84C92F5C242C390700D20EB3 /* AppDelegate.swift */,
-				84C92F5E242C390700D20EB3 /* SceneDelegate.swift */,
-				84C92F60242C390700D20EB3 /* ViewController.swift */,
-				84C92F62242C390700D20EB3 /* Main.storyboard */,
-				84C92F65242C390A00D20EB3 /* Assets.xcassets */,
-				84C92F67242C390A00D20EB3 /* LaunchScreen.storyboard */,
-				84C92F6A242C390A00D20EB3 /* Info.plist */,
+				84C92F94242C4BDD00D20EB3 /* API */,
+				84C92FB7242C4BDD00D20EB3 /* AppDelegate */,
+				84C92F98242C4BDD00D20EB3 /* Base */,
+				84C92F90242C4BDD00D20EB3 /* Define */,
+				84C92F8C242C4BDD00D20EB3 /* Modules */,
+				84C92FB8242C4BDD00D20EB3 /* Supporting Flies */,
+				84C92F8D242C4BDD00D20EB3 /* Utils */,
 			);
 			path = JWellFish;
 			sourceTree = "<group>";
@@ -128,6 +225,346 @@
 			path = JWellFishUITests;
 			sourceTree = "<group>";
 		};
+		84C92F8C242C4BDD00D20EB3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FFA242C938000D20EB3 /* Login */,
+				84C92FDA242C4C6B00D20EB3 /* AddressBook */,
+				84C92FE6242C4C6B00D20EB3 /* Message */,
+				84C92FE0242C4C6B00D20EB3 /* Mine */,
+				84C92FEC242C4C6B00D20EB3 /* Workbench */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84C92F8D242C4BDD00D20EB3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F8E242C4BDD00D20EB3 /* Color */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		84C92F8E242C4BDD00D20EB3 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F8F242C4BDD00D20EB3 /* JWellColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		84C92F90242C4BDD00D20EB3 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F91242C4BDD00D20EB3 /* FontAndColorMacros.swift */,
+				84C92F92242C4BDD00D20EB3 /* SwiftClass.swift */,
+				84C92F93242C4BDD00D20EB3 /* CUtilsMacros.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		84C92F94242C4BDD00D20EB3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F95242C4BDD00D20EB3 /* NetworkManager.swift */,
+				84C92F96242C4BDD00D20EB3 /* API.swift */,
+				84C92F97242C4BDD00D20EB3 /* MoyaConfig.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84C92F98242C4BDD00D20EB3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F99242C4BDD00D20EB3 /* TabBarView */,
+				84C92FA5242C4BDD00D20EB3 /* NavigationBar */,
+				84C92FB5242C4BDD00D20EB3 /* RootViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84C92F99242C4BDD00D20EB3 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F9A242C4BDD00D20EB3 /* DMTabBarViewController.swift */,
+				84C92FA4242C4BDD00D20EB3 /* JWellPlushButtonSubclass.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		84C92FA5242C4BDD00D20EB3 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FA6242C4BDD00D20EB3 /* JWellAssociatedKeys.swift */,
+				84C92FA7242C4BDD00D20EB3 /* JWellNavigation.swift */,
+				84C92FA8242C4BDD00D20EB3 /* UINavigationController+JWellNavigationBar.swift */,
+				84C92FA9242C4BDD00D20EB3 /* JWellNavigationItem.swift */,
+				84C92FAA242C4BDD00D20EB3 /* JWellConst.swift */,
+				84C92FAB242C4BDD00D20EB3 /* UINavigationBar+JWellSugar.swift */,
+				84C92FAC242C4BDD00D20EB3 /* JWellNavigationBar.swift */,
+				84C92FAD242C4BDD00D20EB3 /* UIViewController+JWellSwizzling.swift */,
+				84C92FAE242C4BDD00D20EB3 /* UITableViewController+JWellNavigationBar.swift */,
+				84C92FAF242C4BDD00D20EB3 /* JWellBackBarButtonItem.swift */,
+				84C92FB0242C4BDD00D20EB3 /* UIViewController+JWellNavigation.swift */,
+				84C92FB1242C4BDD00D20EB3 /* UIViewController+JWellNavigationBar.swift */,
+				84C92FB2242C4BDD00D20EB3 /* JWellConfiguration.swift */,
+				84C92FB3242C4BDD00D20EB3 /* UIViewController+JWellAssociated.swift */,
+				84C92FB4242C4BDD00D20EB3 /* JWellShadow.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		84C92FB5242C4BDD00D20EB3 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FF6242C4E2300D20EB3 /* JFRootViewController.swift */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		84C92FB7242C4BDD00D20EB3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F5C242C390700D20EB3 /* AppDelegate.swift */,
+				84C92F5E242C390700D20EB3 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84C92FB8242C4BDD00D20EB3 /* Supporting Flies */ = {
+			isa = PBXGroup;
+			children = (
+				84C92F60242C390700D20EB3 /* ViewController.swift */,
+				84C92F62242C390700D20EB3 /* Main.storyboard */,
+				84C92F65242C390A00D20EB3 /* Assets.xcassets */,
+				84C92F67242C390A00D20EB3 /* LaunchScreen.storyboard */,
+				84C92F6A242C390A00D20EB3 /* Info.plist */,
+			);
+			path = "Supporting Flies";
+			sourceTree = "<group>";
+		};
+		84C92FDA242C4C6B00D20EB3 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FDB242C4C6B00D20EB3 /* ViewModel */,
+				84C92FDC242C4C6B00D20EB3 /* Controller */,
+				84C92FDE242C4C6B00D20EB3 /* Model */,
+				84C92FDF242C4C6B00D20EB3 /* View */,
+			);
+			name = AddressBook;
+			path = JWellFish/Modules/AddressBook;
+			sourceTree = SOURCE_ROOT;
+		};
+		84C92FDB242C4C6B00D20EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84C92FDC242C4C6B00D20EB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C0578324344C5200F86C4A /* JFAddressBookViewController.swift */,
+				84C0578424344C5200F86C4A /* JFAddressBookViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C92FDE242C4C6B00D20EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C92FDF242C4C6B00D20EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C93009242DD3E600D20EB3 /* RYVideoView.swift */,
+				84C057872434617200F86C4A /* JFVideoTableViewCell.swift */,
+				84C057882434617200F86C4A /* JFVideoTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C92FE0242C4C6B00D20EB3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FE1242C4C6B00D20EB3 /* ViewModel */,
+				84C92FE2242C4C6B00D20EB3 /* Controller */,
+				84C92FE4242C4C6B00D20EB3 /* Model */,
+				84C92FE5242C4C6B00D20EB3 /* View */,
+			);
+			name = Mine;
+			path = JWellFish/Modules/Mine;
+			sourceTree = SOURCE_ROOT;
+		};
+		84C92FE1242C4C6B00D20EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84C92FE2242C4C6B00D20EB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FE3242C4C6B00D20EB3 /* JFMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C92FE4242C4C6B00D20EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C92FE5242C4C6B00D20EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C92FE6242C4C6B00D20EB3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FE7242C4C6B00D20EB3 /* ViewModel */,
+				84C92FE8242C4C6B00D20EB3 /* Controller */,
+				84C92FEA242C4C6B00D20EB3 /* Model */,
+				84C92FEB242C4C6B00D20EB3 /* View */,
+			);
+			name = Message;
+			path = JWellFish/Modules/Message;
+			sourceTree = SOURCE_ROOT;
+		};
+		84C92FE7242C4C6B00D20EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84C92FE8242C4C6B00D20EB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FE9242C4C6B00D20EB3 /* JFMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C92FEA242C4C6B00D20EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C92FEB242C4C6B00D20EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C92FEC242C4C6B00D20EB3 /* Workbench */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FED242C4C6B00D20EB3 /* ViewModel */,
+				84C92FEE242C4C6B00D20EB3 /* Controller */,
+				84C92FF0242C4C6B00D20EB3 /* Model */,
+				84C92FF1242C4C6B00D20EB3 /* View */,
+			);
+			name = Workbench;
+			path = JWellFish/Modules/Workbench;
+			sourceTree = SOURCE_ROOT;
+		};
+		84C92FED242C4C6B00D20EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84C92FEE242C4C6B00D20EB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FEF242C4C6B00D20EB3 /* JFWorkbenchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C92FF0242C4C6B00D20EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C92FF1242C4C6B00D20EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C92FFA242C938000D20EB3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84C92FFC242C93AA00D20EB3 /* Controller */,
+				84C92FFB242C93AA00D20EB3 /* Model */,
+				84C92FFD242C93AA00D20EB3 /* View */,
+				84C92FFE242C93AA00D20EB3 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84C92FFB242C93AA00D20EB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84C92FFC242C93AA00D20EB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C93003242C959000D20EB3 /* JFLoginViewController.swift */,
+				84C93004242C959000D20EB3 /* JFLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C92FFD242C93AA00D20EB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84C92FFE242C93AA00D20EB3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E05C0D2A11784565494AB267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B73909FAB5DD8382ED7151F /* Pods-JWellFish.debug.xcconfig */,
+				6A883A62EAD35CA47822979C /* Pods-JWellFish.release.xcconfig */,
+				FAA58852051054CCCABBC13C /* Pods-JWellFishTests.debug.xcconfig */,
+				5C55FBBF30172B9BF8185CCD /* Pods-JWellFishTests.release.xcconfig */,
+				2956D22BA892A60960C858C8 /* Pods-JWellFishUITests.debug.xcconfig */,
+				AC90A31CCBAB45D67E62E14A /* Pods-JWellFishUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +572,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C92F83242C390B00D20EB3 /* Build configuration list for PBXNativeTarget "JWellFish" */;
 			buildPhases = (
+				5E9CCCAE437F9BB1C4DB5ED9 /* [CP] Check Pods Manifest.lock */,
 				84C92F55242C390700D20EB3 /* Sources */,
 				84C92F56242C390700D20EB3 /* Frameworks */,
 				84C92F57242C390700D20EB3 /* Resources */,
+				1035E77A910ECA04DF58BAC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +591,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C92F86242C390B00D20EB3 /* Build configuration list for PBXNativeTarget "JWellFishTests" */;
 			buildPhases = (
+				B1C8DFD853E6A431E7EDE61E /* [CP] Check Pods Manifest.lock */,
 				84C92F6B242C390B00D20EB3 /* Sources */,
 				84C92F6C242C390B00D20EB3 /* Frameworks */,
 				84C92F6D242C390B00D20EB3 /* Resources */,
@@ -170,6 +610,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C92F89242C390B00D20EB3 /* Build configuration list for PBXNativeTarget "JWellFishUITests" */;
 			buildPhases = (
+				7755AB30A8572E36F876EEA9 /* [CP] Check Pods Manifest.lock */,
 				84C92F76242C390B00D20EB3 /* Sources */,
 				84C92F77242C390B00D20EB3 /* Frameworks */,
 				84C92F78242C390B00D20EB3 /* Resources */,
@@ -233,8 +674,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C92F69242C390A00D20EB3 /* LaunchScreen.storyboard in Resources */,
+				84C0578A2434617200F86C4A /* JFVideoTableViewCell.xib in Resources */,
 				84C92F66242C390A00D20EB3 /* Assets.xcassets in Resources */,
+				84C93006242C959000D20EB3 /* JFLoginViewController.xib in Resources */,
 				84C92F64242C390700D20EB3 /* Main.storyboard in Resources */,
+				84C0578624344C5200F86C4A /* JFAddressBookViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +698,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1035E77A910ECA04DF58BAC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWellFish/Pods-JWellFish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWellFish/Pods-JWellFish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWellFish/Pods-JWellFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9CCCAE437F9BB1C4DB5ED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWellFish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7755AB30A8572E36F876EEA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWellFishUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C8DFD853E6A431E7EDE61E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWellFishTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84C92F55242C390700D20EB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C92FB9242C4BDE00D20EB3 /* JWellColor.swift in Sources */,
+				84C057892434617200F86C4A /* JFVideoTableViewCell.swift in Sources */,
+				84C92FCD242C4BDE00D20EB3 /* JWellNavigationItem.swift in Sources */,
+				84C92FBC242C4BDE00D20EB3 /* CUtilsMacros.swift in Sources */,
+				84C92FCB242C4BDE00D20EB3 /* JWellNavigation.swift in Sources */,
+				84C92FC0242C4BDE00D20EB3 /* DMTabBarViewController.swift in Sources */,
 				84C92F61242C390700D20EB3 /* ViewController.swift in Sources */,
+				84C0578524344C5200F86C4A /* JFAddressBookViewController.swift in Sources */,
+				84C92FD3242C4BDE00D20EB3 /* JWellBackBarButtonItem.swift in Sources */,
+				84C92FCF242C4BDE00D20EB3 /* UINavigationBar+JWellSugar.swift in Sources */,
+				84C92FF7242C4E2300D20EB3 /* JFRootViewController.swift in Sources */,
+				84C92FD1242C4BDE00D20EB3 /* UIViewController+JWellSwizzling.swift in Sources */,
+				84C92FD8242C4BDE00D20EB3 /* JWellShadow.swift in Sources */,
+				84C92FD7242C4BDE00D20EB3 /* UIViewController+JWellAssociated.swift in Sources */,
+				84C92FBB242C4BDE00D20EB3 /* SwiftClass.swift in Sources */,
+				84C92FF5242C4C6B00D20EB3 /* JFWorkbenchViewController.swift in Sources */,
+				84C92FD0242C4BDE00D20EB3 /* JWellNavigationBar.swift in Sources */,
+				84C92FBD242C4BDE00D20EB3 /* NetworkManager.swift in Sources */,
+				84C93005242C959000D20EB3 /* JFLoginViewController.swift in Sources */,
+				84C92FCC242C4BDE00D20EB3 /* UINavigationController+JWellNavigationBar.swift in Sources */,
+				84C92FD4242C4BDE00D20EB3 /* UIViewController+JWellNavigation.swift in Sources */,
+				84C92FBF242C4BDE00D20EB3 /* MoyaConfig.swift in Sources */,
+				84C92FF3242C4C6B00D20EB3 /* JFMineViewController.swift in Sources */,
+				84C92FD2242C4BDE00D20EB3 /* UITableViewController+JWellNavigationBar.swift in Sources */,
 				84C92F5D242C390700D20EB3 /* AppDelegate.swift in Sources */,
+				84C92FCA242C4BDE00D20EB3 /* JWellAssociatedKeys.swift in Sources */,
+				84C92FF4242C4C6B00D20EB3 /* JFMessageViewController.swift in Sources */,
 				84C92F5F242C390700D20EB3 /* SceneDelegate.swift in Sources */,
+				84C92FBE242C4BDE00D20EB3 /* API.swift in Sources */,
+				84C92FBA242C4BDE00D20EB3 /* FontAndColorMacros.swift in Sources */,
+				84C92FCE242C4BDE00D20EB3 /* JWellConst.swift in Sources */,
+				84C92FC9242C4BDE00D20EB3 /* JWellPlushButtonSubclass.swift in Sources */,
+				84C9300A242DD3E600D20EB3 /* RYVideoView.swift in Sources */,
+				84C92FD6242C4BDE00D20EB3 /* JWellConfiguration.swift in Sources */,
+				84C92FD5242C4BDE00D20EB3 /* UIViewController+JWellNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +994,13 @@
 		};
 		84C92F84242C390B00D20EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B73909FAB5DD8382ED7151F /* Pods-JWellFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6F9AK99VQ;
-				INFOPLIST_FILE = JWellFish/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JWellFish/Supporting Flies/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +1014,13 @@
 		};
 		84C92F85242C390B00D20EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A883A62EAD35CA47822979C /* Pods-JWellFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6F9AK99VQ;
-				INFOPLIST_FILE = JWellFish/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JWellFish/Supporting Flies/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +1034,7 @@
 		};
 		84C92F87242C390B00D20EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA58852051054CCCABBC13C /* Pods-JWellFishTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +1057,7 @@
 		};
 		84C92F88242C390B00D20EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C55FBBF30172B9BF8185CCD /* Pods-JWellFishTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +1080,7 @@
 		};
 		84C92F8A242C390B00D20EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2956D22BA892A60960C858C8 /* Pods-JWellFishUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +1101,7 @@
 		};
 		84C92F8B242C390B00D20EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC90A31CCBAB45D67E62E14A /* Pods-JWellFishUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
