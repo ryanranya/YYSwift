@@ -12,6 +12,7 @@
 		5726BD2B70E9BB50AA419247 /* Pods_JWellFishTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E3997D18836F0FD478E054 /* Pods_JWellFishTests.framework */; };
 		8415B839243593C200303B4A /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415B838243593C200303B4A /* VideoModel.swift */; };
 		8415B83B2435950700303B4A /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415B83A2435950700303B4A /* VideoViewModel.swift */; };
+		8415B8472435E0D100303B4A /* RYVideoMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8415B8462435E0D100303B4A /* RYVideoMaskView.swift */; };
 		84C0578524344C5200F86C4A /* JFAddressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0578324344C5200F86C4A /* JFAddressBookViewController.swift */; };
 		84C0578624344C5200F86C4A /* JFAddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C0578424344C5200F86C4A /* JFAddressBookViewController.xib */; };
 		84C057892434617200F86C4A /* JFVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C057872434617200F86C4A /* JFVideoTableViewCell.swift */; };
@@ -82,6 +83,7 @@
 		6A883A62EAD35CA47822979C /* Pods-JWellFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWellFish.release.xcconfig"; path = "Target Support Files/Pods-JWellFish/Pods-JWellFish.release.xcconfig"; sourceTree = "<group>"; };
 		8415B838243593C200303B4A /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		8415B83A2435950700303B4A /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		8415B8462435E0D100303B4A /* RYVideoMaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYVideoMaskView.swift; sourceTree = "<group>"; };
 		84C0578324344C5200F86C4A /* JFAddressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFAddressBookViewController.swift; sourceTree = "<group>"; };
 		84C0578424344C5200F86C4A /* JFAddressBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JFAddressBookViewController.xib; sourceTree = "<group>"; };
 		84C057872434617200F86C4A /* JFVideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFVideoTableViewCell.swift; sourceTree = "<group>"; };
@@ -390,6 +392,7 @@
 				84C93009242DD3E600D20EB3 /* RYVideoView.swift */,
 				84C057872434617200F86C4A /* JFVideoTableViewCell.swift */,
 				84C057882434617200F86C4A /* JFVideoTableViewCell.xib */,
+				8415B8462435E0D100303B4A /* RYVideoMaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -826,6 +829,7 @@
 				84C92FBE242C4BDE00D20EB3 /* API.swift in Sources */,
 				84C92FBA242C4BDE00D20EB3 /* FontAndColorMacros.swift in Sources */,
 				8415B83B2435950700303B4A /* VideoViewModel.swift in Sources */,
+				8415B8472435E0D100303B4A /* RYVideoMaskView.swift in Sources */,
 				84C92FCE242C4BDE00D20EB3 /* JWellConst.swift in Sources */,
 				8415B839243593C200303B4A /* VideoModel.swift in Sources */,
 				84C92FC9242C4BDE00D20EB3 /* JWellPlushButtonSubclass.swift in Sources */,
