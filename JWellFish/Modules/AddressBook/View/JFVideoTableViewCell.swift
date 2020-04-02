@@ -9,12 +9,15 @@
 import UIKit
 import Reusable
 import SwiftyFitsize
+import Kingfisher
 class JFVideoTableViewCell: UITableViewCell,NibReusable {
 
+    
+    @IBOutlet weak var scButton: UIButton!
+    @IBOutlet weak var bgImageView: UIImageView!
     @IBOutlet weak var playOrPause: UIButton!
     @IBOutlet weak var playImage: UIImageView!
     @IBOutlet weak var giveLikeButton: UIButton!
-    @IBOutlet weak var collectionButton: UIButton!
     @IBOutlet weak var videoBgView: UIView!
     @IBOutlet weak var countLabel: UILabel!
     
@@ -28,6 +31,17 @@ class JFVideoTableViewCell: UITableViewCell,NibReusable {
 //        videoBgView.addSubview(videoView)
         countLabel.text = "测试一下自适应的高度行不行卡机你那是氪金大佬抠脚大汉案件肯德基卡上"
         self.playOrPause.isSelected = true
+       
+    }
+    
+    var model: Dictionary<String, String>?{
+        didSet{
+            guard let model = model else {return}
+            self.bgImageView?.kf.setImage(with: URL.init(string: model["image"]!))
+            self.countLabel.text = model["title"]
+        
+        }
+        
     }
     
     @IBAction func playOrPauseTap(_ sender: Any) {
@@ -49,14 +63,21 @@ class JFVideoTableViewCell: UITableViewCell,NibReusable {
     }
 //    评论
     @IBAction func messageTap(_ sender: Any) {
+        
     }
 //    收藏
-    @IBAction func collectionTap(_ sender: Any) {
-        self.collectionButton.isSelected = !self.collectionButton.isSelected
+    
+    @IBAction func scButtonTap(_ sender: Any) {
+        self.scButton.isSelected = !self.scButton.isSelected
+        
     }
-//    分享
+    //    分享
     @IBAction func share(_ sender: Any) {
+        
+        
     }
+    
+    
     lazy var videoView: RYVideoView = {
         let videoView = RYVideoView()
        

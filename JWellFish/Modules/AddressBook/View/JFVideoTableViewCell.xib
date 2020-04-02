@@ -19,7 +19,7 @@
                     <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTF-gX-yjl">
                         <rect key="frame" x="0.0" y="10" width="400" height="140"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="YBn-XX-qUf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="123" translatesAutoresizingMaskIntoConstraints="NO" id="YBn-XX-qUf">
                                 <rect key="frame" x="0.0" y="0.0" width="400" height="140"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="HNx-un-kzc">
@@ -73,9 +73,9 @@
                         </userDefinedRuntimeAttributes>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9f-O8-MxF">
-                        <rect key="frame" x="0.0" y="250" width="100" height="25"/>
+                        <rect key="frame" x="0.0" y="255" width="100" height="25"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="25" id="yeZ-bl-NGR"/>
+                            <constraint firstAttribute="height" constant="25" id="VmP-w2-Yb0"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="tintColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
@@ -93,29 +93,8 @@
                             <action selector="share:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9ef-km-Huz"/>
                         </connections>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9x-Oj-Jmu">
-                        <rect key="frame" x="100" y="250" width="100" height="25"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                        <color key="tintColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        <state key="normal" title="收藏" image="star" catalog="system">
-                            <color key="titleColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                        </state>
-                        <state key="selected" title="已收藏" image="star.fill" catalog="system">
-                            <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </state>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="fontFitType">
-                                <integer key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                        <connections>
-                            <action selector="collectionTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="QuX-yR-SYu"/>
-                        </connections>
-                    </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-1U-2Yy">
-                        <rect key="frame" x="200" y="250" width="100" height="25"/>
+                        <rect key="frame" x="200" y="255" width="100" height="25"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="tintColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                         <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -133,7 +112,7 @@
                         </connections>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fz-NA-6zn">
-                        <rect key="frame" x="300" y="250" width="100" height="25"/>
+                        <rect key="frame" x="300" y="255" width="100" height="25"/>
                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                         <color key="tintColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                         <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -151,11 +130,31 @@
                             <action selector="giveLikeTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ubF-e3-5uN"/>
                         </connections>
                     </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dzl-C6-4aN">
+                        <rect key="frame" x="100" y="255" width="100" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="tintColor" red="0.39607843139999999" green="0.40784313729999999" blue="0.43529411759999997" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="收藏" image="star" catalog="system">
+                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        </state>
+                        <state key="selected" title="已收藏" image="star.fill" catalog="system">
+                            <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="fontFitType">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="scButtonTap:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nBT-RN-van"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="width" secondItem="g9x-Oj-Jmu" secondAttribute="width" id="0RV-N1-n5k"/>
                     <constraint firstAttribute="trailing" secondItem="0u3-be-aca" secondAttribute="trailing" constant="15" id="24a-PA-StK"/>
-                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="leading" secondItem="g9x-Oj-Jmu" secondAttribute="trailing" id="2Df-fL-xaL"/>
+                    <constraint firstItem="Dzl-C6-4aN" firstAttribute="width" secondItem="R9f-O8-MxF" secondAttribute="width" id="31z-MT-6Gk"/>
                     <constraint firstItem="lTF-gX-yjl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="3Mq-NK-3V7">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="swiftyFitType">
@@ -163,7 +162,8 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </constraint>
-                    <constraint firstAttribute="bottom" secondItem="R9f-O8-MxF" secondAttribute="bottom" constant="20" id="4LI-WA-muq"/>
+                    <constraint firstItem="Dzl-C6-4aN" firstAttribute="height" secondItem="R9f-O8-MxF" secondAttribute="height" id="3PK-Uw-jk6"/>
+                    <constraint firstAttribute="trailing" secondItem="8Fz-NA-6zn" secondAttribute="trailing" id="43Z-RJ-5o0"/>
                     <constraint firstItem="lTF-gX-yjl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6vx-a8-DmP">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="swiftyFitType">
@@ -178,32 +178,33 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </constraint>
-                    <constraint firstItem="R9f-O8-MxF" firstAttribute="top" secondItem="0u3-be-aca" secondAttribute="bottom" constant="10" id="FGP-ip-YhK"/>
-                    <constraint firstItem="g9x-Oj-Jmu" firstAttribute="leading" secondItem="R9f-O8-MxF" secondAttribute="trailing" id="FrP-hL-KjO"/>
-                    <constraint firstAttribute="trailing" secondItem="8Fz-NA-6zn" secondAttribute="trailing" id="Lx3-eO-t6J"/>
-                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="height" secondItem="R0Y-1U-2Yy" secondAttribute="height" id="UMD-BC-lqA"/>
-                    <constraint firstItem="g9x-Oj-Jmu" firstAttribute="height" secondItem="R9f-O8-MxF" secondAttribute="height" id="Vsy-gz-VIX"/>
-                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="height" secondItem="g9x-Oj-Jmu" secondAttribute="height" id="Y8j-K3-t96"/>
-                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="centerY" secondItem="g9x-Oj-Jmu" secondAttribute="centerY" id="YYK-ZW-FYo"/>
-                    <constraint firstItem="R9f-O8-MxF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZUA-YI-aCm"/>
-                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="centerY" secondItem="R0Y-1U-2Yy" secondAttribute="centerY" id="eM9-hw-lWg"/>
-                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="leading" secondItem="R0Y-1U-2Yy" secondAttribute="trailing" id="ePc-sv-zxt"/>
-                    <constraint firstItem="g9x-Oj-Jmu" firstAttribute="width" secondItem="R9f-O8-MxF" secondAttribute="width" id="lv1-2Y-ave"/>
+                    <constraint firstAttribute="bottom" secondItem="R9f-O8-MxF" secondAttribute="bottom" constant="15" id="9aF-zk-a3L"/>
+                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="height" secondItem="R9f-O8-MxF" secondAttribute="height" id="ASn-4B-aQn"/>
+                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="leading" secondItem="R0Y-1U-2Yy" secondAttribute="trailing" id="BeB-eR-SwJ"/>
+                    <constraint firstItem="Dzl-C6-4aN" firstAttribute="leading" secondItem="R9f-O8-MxF" secondAttribute="trailing" id="WIx-K1-MyI"/>
+                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="leading" secondItem="Dzl-C6-4aN" secondAttribute="trailing" id="WuZ-hT-Fgt"/>
+                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="width" secondItem="R9f-O8-MxF" secondAttribute="width" id="YD4-hl-oR8"/>
+                    <constraint firstItem="R9f-O8-MxF" firstAttribute="top" secondItem="0u3-be-aca" secondAttribute="bottom" constant="15" id="ZY0-Oc-ENX"/>
+                    <constraint firstItem="Dzl-C6-4aN" firstAttribute="centerY" secondItem="R9f-O8-MxF" secondAttribute="centerY" id="b9a-77-O5Z"/>
+                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="width" secondItem="R9f-O8-MxF" secondAttribute="width" id="cJB-4E-slS"/>
+                    <constraint firstItem="R9f-O8-MxF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kT6-QJ-E3S"/>
                     <constraint firstItem="0u3-be-aca" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="oPt-nL-03M"/>
                     <constraint firstItem="0u3-be-aca" firstAttribute="top" secondItem="lTF-gX-yjl" secondAttribute="bottom" constant="15" id="obD-aF-pCf"/>
-                    <constraint firstItem="g9x-Oj-Jmu" firstAttribute="centerY" secondItem="R9f-O8-MxF" secondAttribute="centerY" id="s0Q-IR-gSv"/>
-                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="width" secondItem="R0Y-1U-2Yy" secondAttribute="width" id="xWP-Qf-lxS"/>
+                    <constraint firstItem="8Fz-NA-6zn" firstAttribute="centerY" secondItem="R0Y-1U-2Yy" secondAttribute="centerY" id="tSp-L4-BNG"/>
+                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="height" secondItem="R9f-O8-MxF" secondAttribute="height" id="vFo-Cl-0Nu"/>
+                    <constraint firstItem="R0Y-1U-2Yy" firstAttribute="centerY" secondItem="Dzl-C6-4aN" secondAttribute="centerY" id="z29-ce-Qo0"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="collectionButton" destination="g9x-Oj-Jmu" id="2mg-DB-w75"/>
+                <outlet property="bgImageView" destination="YBn-XX-qUf" id="7V8-9c-7GK"/>
                 <outlet property="countLabel" destination="0u3-be-aca" id="7Tg-Co-ViI"/>
                 <outlet property="giveLikeButton" destination="8Fz-NA-6zn" id="993-8u-dud"/>
                 <outlet property="playImage" destination="HNx-un-kzc" id="PnI-QZ-vpu"/>
                 <outlet property="playOrPause" destination="A7M-KK-edY" id="lDb-70-mKq"/>
+                <outlet property="scButton" destination="Dzl-C6-4aN" id="zQl-OQ-vin"/>
                 <outlet property="videoBgView" destination="lTF-gX-yjl" id="sfQ-sI-ZSq"/>
             </connections>
-            <point key="canvasLocation" x="-1633.3333333333335" y="9.7098214285714288"/>
+            <point key="canvasLocation" x="-2571.0144927536235" y="145.64732142857142"/>
         </tableViewCell>
     </objects>
     <resources>
