@@ -22,7 +22,7 @@ class RYVideoView: UIView {
     }
     
     func videoSet() {
-        playerLayer.frame = CGRect(x: 0, y: 0, width: KScreenWidth - 20~, height: 140~)
+        playerLayer.frame = CGRect(x: 0, y: 0, width: KScreenWidth - 20~, height: 270~)
         self.layer.addSublayer(playerLayer)
         player.pause()
 

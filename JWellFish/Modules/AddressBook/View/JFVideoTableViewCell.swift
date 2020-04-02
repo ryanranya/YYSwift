@@ -21,34 +21,32 @@ class JFVideoTableViewCell: UITableViewCell,NibReusable {
     @IBOutlet weak var videoBgView: UIView!
     @IBOutlet weak var countLabel: UILabel!
     
-    let isPlay: Bool? = nil
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        
-//        videoView.frame = CGRect(x: 0, y: 0, width: KScreenWidth - 40~, height: 140~)
-//        videoBgView.addSubview(videoView)
-        countLabel.text = "测试一下自适应的高度行不行卡机你那是氪金大佬抠脚大汉案件肯德基卡上"
-        self.playOrPause.isSelected = true
-       
+     
     }
     
-    var model: Dictionary<String, String>?{
+    var model: VideoDetail?{
         didSet{
             guard let model = model else {return}
-            self.bgImageView?.kf.setImage(with: URL.init(string: model["image"]!))
-            self.countLabel.text = model["title"]
-        
+            self.bgImageView?.kf.setImage(with: URL.init(string: model.photo!))
+            self.countLabel.text = model.mediaName
+            if model.isPlay {
+                self.playImage.image = UIImage.init(named: "pause")
+            }else{
+                self.playImage.image = UIImage.init(named: "play")
+            }
         }
         
     }
     
     @IBAction func playOrPauseTap(_ sender: Any) {
-        self.playOrPause.isSelected = !self.playOrPause.isSelected
-        if self.playOrPause.isSelected {
+        if self.model!.isPlay {
+            self.model!.isPlay = false
             self.playImage.image = UIImage.init(named: "play")
         }else{
+            self.model!.isPlay = true
             self.playImage.image = UIImage.init(named: "pause")
         }
     }

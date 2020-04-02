@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import GDPerformanceView_Swift
 
 @available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var performanceView: PerformanceMonitor?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        #if DEBUG
+           self.performanceView = PerformanceMonitor()
+           self.performanceView?.start()
+        #endif
         let mainTabBarVC = DMTabBarViewController(viewControllers: viewControllers(), tabBarItemsAttributes: tabBarItemsAttributesForController())
         self.window = UIWindow()
         self.window?.frame = UIScreen.main.bounds

@@ -4,6 +4,7 @@ PODS:
     - CYLTabBarController/Core (= 1.28.5)
   - CYLTabBarController/Core (1.28.5)
   - GDPerformanceView-Swift (2.0.3)
+  - HandyJSON (5.0.1)
   - Kingfisher (5.12.0):
     - Kingfisher/Core (= 5.12.0)
   - Kingfisher/Core (5.12.0)
@@ -24,6 +25,7 @@ PODS:
 DEPENDENCIES:
   - CYLTabBarController
   - GDPerformanceView-Swift
+  - HandyJSON
   - Kingfisher
   - Moya
   - Reusable
@@ -35,6 +37,7 @@ SPEC REPOS:
     - Alamofire
     - CYLTabBarController
     - GDPerformanceView-Swift
+    - HandyJSON
     - Kingfisher
     - Moya
     - Result
@@ -46,6 +49,7 @@ SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
   GDPerformanceView-Swift: ef3d05deb103e472a5494d3f60aeca5a58b88a7d
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
@@ -53,6 +57,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwiftyFitsize: ea06788e0c57b818112e238070bdfa9800aedc21
 
-PODFILE CHECKSUM: 4cb0bde38695d40861f4f32e1a736ff70708a5f0
+PODFILE CHECKSUM: a17448d08a0b9b65fdccb5e18c5434deb466cbc5
 
 COCOAPODS: 1.7.3

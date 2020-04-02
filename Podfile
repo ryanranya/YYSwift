@@ -18,6 +18,8 @@ target 'JWellFish' do
   pod 'GDPerformanceView-Swift'
   #xib屏幕适配
   pod 'SwiftyFitsize'
+  #JSON
+  pod 'HandyJSON'
   #快速注册cell
   pod 'Reusable'
   target 'JWellFishTests' do
