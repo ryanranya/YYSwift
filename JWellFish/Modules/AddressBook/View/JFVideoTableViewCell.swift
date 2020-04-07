@@ -24,10 +24,7 @@ class JFVideoTableViewCell: UITableViewCell,NibReusable {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.bgImageView.addSubview(maskView);
-        maskView.snp.makeConstraints { (make) in
-            make.left.right.bottom.top.equalTo(0)
-        }
+     
     }
     
     var model: VideoDetail?{
@@ -85,6 +82,6 @@ class JFVideoTableViewCell: UITableViewCell,NibReusable {
         return videoView
     }()
     
-    
+   
     
 }
